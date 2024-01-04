@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Nav-Bar */
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    background-color: papayawhip;
+    border-radius: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.logo {
+    font-size: 2rem;
+    cursor: default;
+    font-weight: bolder;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+nav a:hover {
+    color: whitesmoke;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.menu-line {
+    height: 3px;
+    width: 20px;
+    background-color: black;
+    margin-bottom: 3px;
+}
+
+.menu {
+    cursor: pointer;
+    display: none;
+}
+
+@media all and (max-width: 800px) {
+    #profile {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 1rem;
+    }
+
+    #about {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav li {
+        display: block;
+        padding: 5px;
+    }
+
+    ul {
+        text-align: center;
+        display: none;
+    }
+
+    .logo {
+        align-self: flex-start;
+        margin: 10px 0px 0px 20px;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+
+    .show {
+        display: block;
+    }
+}
+
+/* Section */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.section-pic {
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#profile {
+    justify-content: center;
+    height: auto;
+    gap: 2rem;
+    text-align: center;
+}
+
+.section-text {
+    align-self: center;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-1,
+.btn-2 {
+    border-radius: 30px;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+    background-color: papayawhip;
+    color: black;
+    margin: auto;
+}
+
+#about {
+    height: auto;
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 15px 15px;
+}
+
+.skills-p {
+    display: flex;
+    align-items: center;
+}
+
+#internship,
+#project {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    gap: 1rem;
+    margin: 15px 15px;
+}
+
+.Company-det {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-intern,
+.project-des {
+    cursor: default;
+}
+
+.internpara,
+.projectpara {
+    text-align: center;
+    max-width: 600px;
+}
+
+#contact {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    background-color: papayawhip;
+    border-radius: 10px;
+}
+
+.phone,
+.mail {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem;
+}
+
+.mail {
+    margin-bottom: 1rem;
+}

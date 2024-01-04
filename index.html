@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Vasu prem</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#internship">Internship</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section-pic"><img src="./files/profile.png" alt="profile picture"></div>
+        <div class="section-text">
+            <p class="text-p1">Hello, I'm,</p>
+            <h1 class="title">Vasu prem</h1>
+            <p class="text-p2">Software Developer</p>
+            <div class="btns">
+                <button class="btn-1" onclick="window.open('./files/Vasuprem_Resume.pdf')">Download CV</button>
+                <button class="btn-2" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div class="social">
+                <img src="./files/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/vasu-prem-b32b13215/'">
+                <img src="./files/Github.png" alt="GitHub" class="icon" onclick="location.href='https://github.com/Premvasu53'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-pic"><img src="./files/about.png" alt="profile picture"></div>
+        <h1 class="about-1">About Me</h1>
+        <h1 class="Edu"><u>Education</u></h1>
+        <h1 class="title">B.E Computer Science and Technology</h1>
+        <p class="edu-p">Karpagam College of Engineering Coimbatore with CGPA: 8.59</p>
+        <h1 class="title">Class XII and X</h1>
+        <p class="edu-p">Alagappa Matriculation Higher Secondary School with 60% and 85.4%</p>
+        <h1 class="skills"><u>Skills</u></h1>
+        <div>
+            <div class="skills-p">
+                <h3>Languages : </h3>
+                <p>Java, Python</p>
+            </div>
+            <div class="skills-p">
+                <h3>Frontend : </h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skills-p">
+                <h3>Database : </h3>
+                <p>SQL</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="internship">
+        <h1>Internship</h1>
+        <div class="Company-det">
+            <h1>Company Name : Cognify Technologies</h1>
+        </div>
+        <div class="about-intern"><h4><u>About Internship</u></h4></div>
+        <div class="internpara">
+            <p>
+                It's a web development internship where I worked on tasks in HTML, CSS, JavaScript, and frontend frameworks for a month. I completed three levels of assignments, gaining practical skills. I received certificates after finishing each task, making me more proficient in building websites.
+            </p>
+        </div>
+    </section>
+
+    <section id="project">
+        <h1>Project</h1>
+        <div class="project-title">
+            <h2>Banking System</h2>
+        </div>
+        <div class="project-des"><h4><u>About Project</u></h4></div>
+        <div class="projectpara">
+            <p>
+                "Banking System," a console-based application created with Java, JDBC, and SQL. This project exemplifies my ability to design and implement functional solutions, providing users with essential banking features like account management, balance inquiries, and secure transactions.
+            </p>
+        </div>
+        <div class="btns">
+            <button class="btn-2" onclick="location.href='https://github.com/Premvasu53/Banking-System'">GitHub Link</button>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h3>Contact Me On</h3>
+        <div class="phone">
+            <img src="./files/Call.png" alt="Phone img" class="icon">
+            <h5 class="phone-no">+91 9345329511</h5>
+        </div>
+        <div class="mail">
+            <img src="./files/mail.png" alt="Phone img" class="icon">
+            <h5 class="mail-id">vasuprem.m@gmail.com</h5>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
